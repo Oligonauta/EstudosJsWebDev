@@ -24,7 +24,8 @@ body {
     text-align: center;
     padding: 20px;
     overflow: hidden;  
-    background: linear-gradient(#E7E19C,  #FEB79A);      
+    background: linear-gradient(#E7E19C,  #FEB79A);     
+    margin-bottom: 5px;
 }
 
 .pic {
