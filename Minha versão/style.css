@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+
+    background-image: url("Imagens/background-maragogi.jpg");        
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 5px;    
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;  
+    background: linear-gradient(#E7E19C,  #FEB79A);      
+}
+
+.pic {
+    display: inline-block;
+    padding: 8px;
+    margin: auto;   
+}
+
+.pic img {
+    display: block;
+    width: 280px;
+    height: 280px;  
+    border-radius: 50%;    
+}
+
+.name {
+    font-weight: 800px;
+    font-size: 28px; 
+    color: #FF5411;
+    margin-bottom: 10px;
+}
+
+.professional-description {
+    color:#00b84c;
+}
+
+.socials a {
+    color: antiquewhite;
+    margin: 20px;
+    width: 56px;
+    font-size: 30px;
+    transition: 300ms linear;
+}
+
+.socials a:hover {
+    color:#FF5411;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #FF5411;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.item span {
+    display: block;
+    color: #00b84c;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
