@@ -1,11 +1,11 @@
-@media (max-width: 1080px) {
+@media (max-width: 1920px) {
     body {
-        height: 100vh;
-        width: 100vw;
+        height: 1264px;
+        width: 976px;
     }
     .card {
-        width: 436px;
-        height: 508px;
+        width: 508px;
+        height: 436px;
     }        
 }
 
